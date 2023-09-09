@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #1b2e35;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 1rem;
+}
+.documents {
+  display: flex;
+  /* margin-left: 280px; */
+  margin-right: 0;
+}
+.pageContent {
+  display: flex;
+  position: relative;
+  margin-left: 250px;
+  flex-direction: column;
+}
+
+.horizontalNav {
+  position: fixed;
+  overflow: hidden;
+  max-width: 200px;
+  top: 0;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+}
+.horizontalNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 35px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav a :hover {
+  background: #d5f7e6;
+  color: #1b2e35;
+}
+
+.logo h1 {
+  height: 90px;
+  width: max-content;
+  position: fixed;
+  font-family: monospace;
+  background-color: #57e5a7;
+}
+.box {
+  height: 600px;
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  border-bottom: 1px solid #b7c3be;
+  align-items: center;
+}
+.logo {
+  display: flex;
+}
+
+.contain {
+  width: 450px;
+  height: 600px;
+
+  margin: 10px;
+}
+.contain h3 {
+  color: #3d7a6c;
+  font-size: 4rem;
+}
+
+.contain p {
+  color: hsl(196, 33%, 16%);
+  font-size: 0.95rem;
+  margin-top: 20px;
+}
+.contain li {
+  color: hsl(196, 33%, 16%);
+  font-size: 0.84rem;
+}
+
+.box2 {
+  height: 500px;
+  align-self: center;
+  width: 500px;
+}
+.img1 {
+  background-image: url("images/coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img2 {
+  background-image: url("images/chatting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img3 {
+  background-image: url("images/girlsitting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img4 {
+  background-image: url("images/downlord.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.img5 {
+  background-image: url("images/poetry.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.para {
+  height: 600px;
+  width: 500px;
+
+  border-bottom: 1px solid #b7c3be;
+}
+.front {
+  background-image: url("images/front.jpg");
+  background-size: cover;
+}
